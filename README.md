@@ -1,9 +1,7 @@
 
 微信小程序集成Redux实现的Todo list
-======================
-小程序内[Redux](https://github.com/reactjs/redux)实现Todo list，同时集成了redux-devtools
 
-![remote-redux-devtools](./remote-redux-devtools.gif)
+======================
 
 引用了：[wechat-weapp-redux](https://github.com/charleyw/wechat-weapp-redux)
 增加了 redux-thunk 的引用支持异步action
@@ -13,6 +11,9 @@
 导入到微信的开发工具运行就可以了。
 
 ### api
+
+入口为QWX.js
+export除了一个provider，一个完整的redux
 
 #类似Qunar的EXT语法#
 
